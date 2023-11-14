@@ -11,12 +11,12 @@ public class Hilos extends Thread {
         // Dependiendo del tipo, el hilo realizará diferentes tareas.
 
         switch(tipo) {
-            case 1 -> {
+            case 1: {
                 for(int i = 1; i < 30; i++) {
                     System.out.println(i); // Imprimir números del 1 al 29
                 }
             }
-            case 2 -> {
+            case 2: {
                 
                  for(char k = 'a'; k < 'z'; k++) {
                     System.out.println(k); // Imprimir números del 1 al 29
